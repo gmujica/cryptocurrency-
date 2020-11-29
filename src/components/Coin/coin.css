@@ -51,11 +51,11 @@
 }
 
 .coin-marketcap {
-    width: 150px;
+    width: 100%;
 }
 
 .coin-percent {
-    width: 80%;
+    width: 50%;
 }
 
 .red {
