@@ -80,4 +80,7 @@
     .coin-data {
         width: 65%;
     }
+    .coin-marketcap {
+        display: none;
+    }
   }
