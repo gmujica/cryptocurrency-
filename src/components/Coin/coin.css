@@ -65,3 +65,19 @@
 .green {
     color: #11d811;
 }
+
+@media only screen and (max-width: 777px) {
+    .coin {
+        padding-right: 0;
+        min-width: 215px;
+    }
+    .coin-row {
+        width: 70%;
+    }
+    .coin h1 {
+        width: 35%;
+    }
+    .coin-data {
+        width: 65%;
+    }
+  }
