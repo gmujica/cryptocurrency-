@@ -84,3 +84,22 @@
         display: none;
     }
   }
+
+  @media only screen and (max-width: 411px) {
+    .coin {
+        padding-right: 0;
+        min-width: 215px;
+    }
+    .coin-row {
+        width: 50%;
+    }
+    .coin h1 {
+        width: 35%;
+    }
+    .coin-data {
+        width: 65%;
+    }
+    .coin-marketcap, .coin-volume {
+        display: none;
+    }
+  }
