@@ -66,7 +66,7 @@
     color: #11d811;
 }
 
-@media only screen and (max-width: 777px) {
+@media only screen and (min-width: 412px) and (max-width: 777px) {
     .coin {
         padding-right: 0;
         min-width: 215px;
@@ -85,21 +85,24 @@
     }
   }
 
-  @media only screen and (max-width: 411px) {
+  @media only screen and (max-width: 412px) {
     .coin {
         padding-right: 0;
         min-width: 215px;
     }
     .coin-row {
-        width: 50%;
+        width: 70%;
     }
     .coin h1 {
         width: 35%;
     }
     .coin-data {
-        width: 65%;
+        width: 38%;
     }
     .coin-marketcap, .coin-volume {
         display: none;
+    }
+    .coin-price{
+        margin-left: -40%; 
     }
   }

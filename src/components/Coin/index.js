@@ -20,7 +20,7 @@ function Coin({ name, image, symbol, price, volume, priceChange, marketcap }) {
                             )
                         }
                     <p className='coin-marketcap'>
-                        Mkt Cap: ${marketcap.toLocaleString()}
+                        Mkt Cap: ${marketcap ?marketcap.toLocaleString() : '-'}
                     </p>
                 </div>
             </div>
